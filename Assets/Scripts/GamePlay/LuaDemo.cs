@@ -33,6 +33,6 @@ public class LuaDemo : MonoBehaviour
 
     void OnDestroy()
     {
-        m_LuaEnv.Dispose();
+        m_LuaEnv?.Dispose();
     }
 }
