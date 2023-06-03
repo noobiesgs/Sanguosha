@@ -1,0 +1,19 @@
+{
+    "name": "Noobie.Sanguosha.GamePlay",
+    "rootNamespace": "",
+    "references": [
+        "Noobie.Sanguosha.Core",
+        "spine-unity",
+        "spine-csharp",
+        "Noobie.Sanguosha.XLua"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
