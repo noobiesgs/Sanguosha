@@ -1,11 +1,7 @@
 {
-    "name": "Noobie.Sanguosha.Core",
+    "name": "Noobie.Sanguosha.ApplicationLifecycle.Messages",
     "rootNamespace": "",
-    "references": [
-        "MessagePack.Annotations",
-        "MessagePack",
-        "UniTask"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

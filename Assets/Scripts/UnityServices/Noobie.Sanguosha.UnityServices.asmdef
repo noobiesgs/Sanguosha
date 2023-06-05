@@ -1,10 +1,14 @@
 {
-    "name": "Noobie.Sanguosha.Core",
+    "name": "Noobie.Sanguosha.UnityServices",
     "rootNamespace": "",
     "references": [
-        "MessagePack.Annotations",
-        "MessagePack",
-        "UniTask"
+        "UniTask",
+        "Noobie.Sanguosha.Infrastructure",
+        "VContainer",
+        "Unity.Services.Core",
+        "Unity.Services.Lobbies",
+        "Unity.Services.Relay",
+        "Unity.Services.Authentication"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

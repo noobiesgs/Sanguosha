@@ -1,9 +1,11 @@
 {
-    "name": "Noobie.Sanguosha.Core",
+    "name": "Noobie.Sanguosha.ApplicationLifecycle",
     "rootNamespace": "",
     "references": [
-        "MessagePack.Annotations",
-        "MessagePack",
+        "Noobie.Sanguosha.Infrastructure",
+        "VContainer",
+        "Noobie.Sanguosha.UnityServices",
+        "Noobie.Sanguosha.ApplicationLifecycle.Messages",
         "UniTask"
     ],
     "includePlatforms": [],

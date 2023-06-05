@@ -1,10 +1,9 @@
 {
-    "name": "Noobie.Sanguosha.Core",
+    "name": "Noobie.Sanguosha.Infrastructure",
     "rootNamespace": "",
     "references": [
-        "MessagePack.Annotations",
-        "MessagePack",
-        "UniTask"
+        "Unity.Netcode.Runtime",
+        "VContainer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
