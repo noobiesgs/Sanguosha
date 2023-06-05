@@ -15,28 +15,28 @@ public class DynamicSpineAnimationDemo : MonoBehaviour
 
     IEnumerator CreateSpine()
     {
-        var texturePath = Path.Combine(Application.streamingAssetsPath, "Res/Skins/LiuYan/01/dynamic/XingXiang.png");
+        var texturePath = Path.Combine(Application.streamingAssetsPath, "Res/Skins/CaoJinYu/01/dynamic/daiji.png");
 
         var request = UnityWebRequestTexture.GetTexture(texturePath);
 
         yield return request.SendWebRequest();
         
         var texture = DownloadHandlerTexture.GetContent(request);
-        texture.name = "XingXiang";
+        texture.name = "daiji";
 
-        request = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "Res/Skins/LiuYan/01/dynamic/XingXiang.atlas"));
+        request = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "Res/Skins/CaoJinYu/01/dynamic/daiji.atlas"));
 
         yield return request.SendWebRequest();
 
         var atlas = new TextAsset(request.downloadHandler.text);
 
-        request = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "Res/Skins/LiuYan/01/dynamic/XingXiang.skel"));
+        request = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "Res/Skins/CaoJinYu/01/dynamic/daiji.skel"));
 
         yield return request.SendWebRequest();
 
         var skeleton = new TextAsset
         {
-            name = "XingXiang.skel"
+            name = "daiji.skel"
         };
 
         var material = Resources.Load<Material>("UI/SpineSkeletonPropertySource");
