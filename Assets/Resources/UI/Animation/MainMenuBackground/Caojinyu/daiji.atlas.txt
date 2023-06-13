@@ -595,8 +595,8 @@ VFX/shuizhu56
 VFX/yun1
   rotate: false
   xy: 551, 1378
-  size: 287, 205
-  orig: 287, 287
+  size: 285, 205
+  orig: 285, 205
   offset: 0, 0
   index: -1
 bx_tishi3_00

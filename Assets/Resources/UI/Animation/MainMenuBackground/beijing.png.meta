@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,11 +129,2230 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 132
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 312
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba8ca46fc459f860800000000000000
+      internalID: 7564170298869451445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_00
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 331
+        width: 265
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b99128c49b99be30800000000000000
+      internalID: 4519814764358113721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_01
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 440
+        width: 263
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f78d9676dbd0010800000000000000
+      internalID: 1156788931159162701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_02
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 547
+        width: 259
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c593307e8105e10800000000000000
+      internalID: 2184273199745293430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_03
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 837
+        width: 246
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea20e6f304391de0800000000000000
+      internalID: -1362000220671431960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_04
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1483
+        width: 252
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a49dd8441d0fe20800000000000000
+      internalID: 3382433412523051676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_05
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 223
+        width: 271
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a241151bb2295d50800000000000000
+      internalID: 6726445705362227880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_06
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1043
+        width: 269
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ff3551e75a46300800000000000000
+      internalID: 244502240727138127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_07
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1590
+        width: 107
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11017fd89b99cdf40800000000000000
+      internalID: 5754643446102429713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_08
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 657
+        width: 256
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cd184dab3c24f40800000000000000
+      internalID: 5711342484655823964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_09
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1374
+        width: 257
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ca37504fbce42b0800000000000000
+      internalID: -5598313037851022241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1264
+        width: 257
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8e6fa1e24503050800000000000000
+      internalID: 5778210878913964197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1153
+        width: 258
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff956db15296fa40800000000000000
+      internalID: 5401665682845048830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_12
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 931
+        width: 257
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f7108f78d2ca150800000000000000
+      internalID: 5885128875071078262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_13
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1835
+        width: 256
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc8d756ba2a285e0800000000000000
+      internalID: -1908784435025834799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo2_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1835
+        width: 261
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fca432121c14ab0800000000000000
+      internalID: -5025523361098576111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1342
+        width: 115
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c676ed06165820800000000000000
+      internalID: 2906534858471163071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_02
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 509
+        width: 116
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4c12858d29eeb20800000000000000
+      internalID: 3165629045977236694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_04
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1043
+        width: 420
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e509ea67964eba0800000000000000
+      internalID: -6060603240078090654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_06
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1724
+        width: 418
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd25c9ff54c6fa30800000000000000
+      internalID: 4248799214962028021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_08
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 509
+        width: 109
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4885c9cd552de5a0800000000000000
+      internalID: -6490490403223664562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_10
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 504
+        width: 109
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9be697f1ab05e10800000000000000
+      internalID: 2184450463618742718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1275
+        width: 419
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1173743a4e998db0800000000000000
+      internalID: -4789122687187062502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1387
+        width: 419
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3472e620862b83950800000000000000
+      internalID: 6429084627858499395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1160
+        width: 419
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d657dde56cdc6de80800000000000000
+      internalID: -8154103823428913811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1612
+        width: 418
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b444df0c3d3244d0800000000000000
+      internalID: -3151889461033024332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1499
+        width: 418
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9a096c4c3d55330800000000000000
+      internalID: 3699095511053150711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_22
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 504
+        width: 113
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32db88ad300789b0800000000000000
+      internalID: -5078089790016204226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1342
+        width: 115
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec74c2dc582acda0800000000000000
+      internalID: -5923877980714271512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1342
+        width: 115
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f0ab72642730c60800000000000000
+      internalID: 7783190226666131222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibo_28
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 509
+        width: 115
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95929053e7d6b5160800000000000000
+      internalID: 7015321233382779225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_00
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 944
+        width: 173
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c6592cd73101d60800000000000000
+      internalID: 7858802780617927740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_02
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1332
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa4b12442fb34180800000000000000
+      internalID: -9132245456928421213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_04
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1195
+        width: 169
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8838ce9beb06d30800000000000000
+      internalID: 4422744539824097531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_06
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 983
+        width: 159
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfbbc41c1e9878b0800000000000000
+      internalID: -5154195930080362536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_08
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1117
+        width: 211
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455de3aa45dad9a50800000000000000
+      internalID: 6529565613902189908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_10
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1438
+        width: 212
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e00d0942cb0d8cb0800000000000000
+      internalID: -4860215493785747223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_12
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1286
+        width: 211
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3b09f87f1591810800000000000000
+      internalID: 1736509255035433972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_14
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1119
+        width: 173
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa181a121bd780d20800000000000000
+      internalID: 3244981731247358383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_16
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1806
+        width: 150
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811bf7a9b1afc5830800000000000000
+      internalID: 4061395960444465432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_18
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1592
+        width: 198
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c14982751e760760800000000000000
+      internalID: 7423759666347852233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_20
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1519
+        width: 198
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85a8247807e7ba60800000000000000
+      internalID: 7689868912252986765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_22
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1507
+        width: 198
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb13805b6ad767de0800000000000000
+      internalID: -1335742084513517124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_24
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1319
+        width: 173
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2681ea0b9e0d613d0800000000000000
+      internalID: -3236169580108965790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_26
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 767
+        width: 214
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae70e657c06c290800000000000000
+      internalID: -7870589600286643494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_28
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1264
+        width: 173
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244ef99de25f621c0800000000000000
+      internalID: -4528662793706019774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_30
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1590
+        width: 173
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd1e35c81f51f7b0800000000000000
+      internalID: -5192264335388434995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_32
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 942
+        width: 214
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2aaa9c067430bf0800000000000000
+      internalID: -359365064233671992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_34
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 312
+        width: 216
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572f24aafce1c8310800000000000000
+      internalID: 1408534660723700341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_36
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 662
+        width: 215
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087bb09c1b9f7d2c0800000000000000
+      internalID: -4406779168381225088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_38
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 944
+        width: 212
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5ccb8cff2f71480800000000000000
+      internalID: -8928400555840322090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_40
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1806
+        width: 168
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e083de631abffd080800000000000000
+      internalID: -9160326447218477042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_42
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1386
+        width: 173
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb8c8fa80e00c40800000000000000
+      internalID: 5476624034366537217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_44
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1144
+        width: 211
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d016152844452a1b0800000000000000
+      internalID: -5646858329548300019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1763
+        width: 173
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737ac22323719430800000000000000
+      internalID: 3787935356340040561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen2_48
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 487
+        width: 216
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef658bb275932fc20800000000000000
+      internalID: 3238714128591247102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_00
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1745
+        width: 86
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec693d39ff173d0800000000000000
+      internalID: -3210504048963301729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_02
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 223
+        width: 32
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbce748d6e9f84480800000000000000
+      internalID: -8914600692513510212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_04
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 456
+        width: 124
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3acf84a2f36c4dd0800000000000000
+      internalID: -2500513799303345601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_06
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1863
+        width: 48
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6d7cdafe9756e70800000000000000
+      internalID: 9107819891746395888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_08
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1947
+        width: 138
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc978222f387a0800800000000000000
+      internalID: 579407714621880779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_10
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1863
+        width: 141
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c042d89b6acb6f6e0800000000000000
+      internalID: -1804047176451677172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1919
+        width: 141
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6a2179d4170d90800000000000000
+      internalID: -7131708560778827087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_14
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1195
+        width: 147
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2202121efc13465e0800000000000000
+      internalID: -1917352772447952862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_16
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1705
+        width: 150
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b771a3cb8f5faf0800000000000000
+      internalID: -363110707621299429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_18
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1645
+        width: 150
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b16e66bb6c65650800000000000000
+      internalID: 6221378443446459150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_20
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1681
+        width: 151
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16d96e067932a8d0800000000000000
+      internalID: -2836641636079249891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_22
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1805
+        width: 147
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f4dd90da823650800000000000000
+      internalID: 6211179464703144167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_24
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1749
+        width: 149
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7925ab5fd0e36d50800000000000000
+      internalID: 6729469518141532543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_26
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1947
+        width: 151
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b32f32bf8f035160800000000000000
+      internalID: 7012966154591216560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_28
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1592
+        width: 47
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce660eedd134a80800000000000000
+      internalID: -8483904429951095691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_30
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1927
+        width: 151
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe879c04c0a12ec0800000000000000
+      internalID: -3593414263779651909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_32
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1951
+        width: 146
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ae9b2088c2bd6a0800000000000000
+      internalID: -6423491480840967586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_34
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1846
+        width: 148
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12071a64fe64d45a0800000000000000
+      internalID: -6535489490748608479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_36
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1795
+        width: 149
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7987201fbe2120800000000000000
+      internalID: 2391058528284016608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_38
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 2
+        width: 49
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63d07135c6aca430800000000000000
+      internalID: 3795591951834731375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_40
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1691
+        width: 151
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f9a4fd61bbdd630800000000000000
+      internalID: 3953521754811047731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_42
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1585
+        width: 151
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79e5b621a69c28b0800000000000000
+      internalID: -5175596252872185477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_44
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1742
+        width: 151
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd59220fd8dbe9530800000000000000
+      internalID: 3863733947647301083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_46
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1895
+        width: 145
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03519dbbee325efd0800000000000000
+      internalID: -2313403325324126928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_48
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1763
+        width: 146
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73763ce4c3f7a9b0800000000000000
+      internalID: -5068814828480072835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_50
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 155
+        width: 49
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5536ae10353390020800000000000000
+      internalID: 2308432715611530069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_52
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1745
+        width: 150
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779922c03f61fe0e0800000000000000
+      internalID: -2238545256643389065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_54
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1947
+        width: 151
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21fd36b30535dea0800000000000000
+      internalID: -5848710251012034258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/shuibowen_56
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1144
+        width: 151
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02911b4cc8bf203f0800000000000000
+      internalID: -935909190525708000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX/yun1
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2
+        width: 307
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866a549a58a772a50800000000000000
+      internalID: 6496295701994382952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizi
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1842
+        width: 5
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7449d7dee84354d20800000000000000
+      internalID: 3262071293574222919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r114
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1691
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6c8a23d75cc1850800000000000000
+      internalID: 6349166716197062385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r119
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 2
+        width: 260
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8261284d4c60cfc0800000000000000
+      internalID: -3476659833151593844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r125
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 331
+        width: 125
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cdd82fe7b19aab0800000000000000
+      internalID: -4996432079541642170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r126
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 767
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33591344424cd360800000000000000
+      internalID: 7195699165582152506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r127
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1947
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdef6a0248356a30800000000000000
+      internalID: 4207831283141701049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 509
+        width: 793
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58879cc5b59e69c00800000000000000
+      internalID: 907168953569736837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r136
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1919
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea5aad487d137d50800000000000000
+      internalID: 6733758270385314536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r137
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1764
+        width: 122
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df595cc7069c4ff0800000000000000
+      internalID: -50500535570571309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r138
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1842
+        width: 170
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2209dc789fc0b20800000000000000
+      internalID: 3102128605016105640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r141
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1590
+        width: 117
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a23c4eea08b8d0800000000000000
+      internalID: -2830500347205474843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r142
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2
+        width: 342
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807e0e54754c68210800000000000000
+      internalID: 1334970218675496712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r143
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 929
+        width: 158
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c29a4b726c966a50800000000000000
+      internalID: 6514065857827214018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r144
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1043
+        width: 363
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667ff6e42ec5d7440800000000000000
+      internalID: 4935202893716256614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r145
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1030
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c90e01a321b17ad0800000000000000
+      internalID: -2706187134488933943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wu1
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 366
+        width: 353
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d72087e6fe2e5a30800000000000000
+      internalID: 4205850739991390166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wu2
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 767
+        width: 154
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0ccb9b988e395a0800000000000000
+      internalID: -6515608557650657075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z2
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 498
+        width: 78
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc6f04f12fb8d8e0800000000000000
+      internalID: -1668373509391291198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z3
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1772
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b647934e37ad8ad50800000000000000
+      internalID: 6748884232899753067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,10 +2363,114 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    nameFileIdTable:
+      132: 7564170298869451445
+      VFX/shuibo2_00: 4519814764358113721
+      VFX/shuibo2_01: 1156788931159162701
+      VFX/shuibo2_02: 2184273199745293430
+      VFX/shuibo2_03: -1362000220671431960
+      VFX/shuibo2_04: 3382433412523051676
+      VFX/shuibo2_05: 6726445705362227880
+      VFX/shuibo2_06: 244502240727138127
+      VFX/shuibo2_07: 5754643446102429713
+      VFX/shuibo2_08: 5711342484655823964
+      VFX/shuibo2_09: -5598313037851022241
+      VFX/shuibo2_10: 5778210878913964197
+      VFX/shuibo2_11: 5401665682845048830
+      VFX/shuibo2_12: 5885128875071078262
+      VFX/shuibo2_13: -1908784435025834799
+      VFX/shuibo2_14: -5025523361098576111
+      VFX/shuibo_00: 2906534858471163071
+      VFX/shuibo_02: 3165629045977236694
+      VFX/shuibo_04: -6060603240078090654
+      VFX/shuibo_06: 4248799214962028021
+      VFX/shuibo_08: -6490490403223664562
+      VFX/shuibo_10: 2184450463618742718
+      VFX/shuibo_12: -4789122687187062502
+      VFX/shuibo_14: 6429084627858499395
+      VFX/shuibo_16: -8154103823428913811
+      VFX/shuibo_18: -3151889461033024332
+      VFX/shuibo_20: 3699095511053150711
+      VFX/shuibo_22: -5078089790016204226
+      VFX/shuibo_24: -5923877980714271512
+      VFX/shuibo_26: 7783190226666131222
+      VFX/shuibo_28: 7015321233382779225
+      VFX/shuibowen2_00: 7858802780617927740
+      VFX/shuibowen2_02: -9132245456928421213
+      VFX/shuibowen2_04: 4422744539824097531
+      VFX/shuibowen2_06: -5154195930080362536
+      VFX/shuibowen2_08: 6529565613902189908
+      VFX/shuibowen2_10: -4860215493785747223
+      VFX/shuibowen2_12: 1736509255035433972
+      VFX/shuibowen2_14: 3244981731247358383
+      VFX/shuibowen2_16: 4061395960444465432
+      VFX/shuibowen2_18: 7423759666347852233
+      VFX/shuibowen2_20: 7689868912252986765
+      VFX/shuibowen2_22: -1335742084513517124
+      VFX/shuibowen2_24: -3236169580108965790
+      VFX/shuibowen2_26: -7870589600286643494
+      VFX/shuibowen2_28: -4528662793706019774
+      VFX/shuibowen2_30: -5192264335388434995
+      VFX/shuibowen2_32: -359365064233671992
+      VFX/shuibowen2_34: 1408534660723700341
+      VFX/shuibowen2_36: -4406779168381225088
+      VFX/shuibowen2_38: -8928400555840322090
+      VFX/shuibowen2_40: -9160326447218477042
+      VFX/shuibowen2_42: 5476624034366537217
+      VFX/shuibowen2_44: -5646858329548300019
+      VFX/shuibowen2_46: 3787935356340040561
+      VFX/shuibowen2_48: 3238714128591247102
+      VFX/shuibowen_00: -3210504048963301729
+      VFX/shuibowen_02: -8914600692513510212
+      VFX/shuibowen_04: -2500513799303345601
+      VFX/shuibowen_06: 9107819891746395888
+      VFX/shuibowen_08: 579407714621880779
+      VFX/shuibowen_10: -1804047176451677172
+      VFX/shuibowen_12: -7131708560778827087
+      VFX/shuibowen_14: -1917352772447952862
+      VFX/shuibowen_16: -363110707621299429
+      VFX/shuibowen_18: 6221378443446459150
+      VFX/shuibowen_20: -2836641636079249891
+      VFX/shuibowen_22: 6211179464703144167
+      VFX/shuibowen_24: 6729469518141532543
+      VFX/shuibowen_26: 7012966154591216560
+      VFX/shuibowen_28: -8483904429951095691
+      VFX/shuibowen_30: -3593414263779651909
+      VFX/shuibowen_32: -6423491480840967586
+      VFX/shuibowen_34: -6535489490748608479
+      VFX/shuibowen_36: 2391058528284016608
+      VFX/shuibowen_38: 3795591951834731375
+      VFX/shuibowen_40: 3953521754811047731
+      VFX/shuibowen_42: -5175596252872185477
+      VFX/shuibowen_44: 3863733947647301083
+      VFX/shuibowen_46: -2313403325324126928
+      VFX/shuibowen_48: -5068814828480072835
+      VFX/shuibowen_50: 2308432715611530069
+      VFX/shuibowen_52: -2238545256643389065
+      VFX/shuibowen_54: -5848710251012034258
+      VFX/shuibowen_56: -935909190525708000
+      VFX/yun1: 6496295701994382952
+      lizi: 3262071293574222919
+      r114: 6349166716197062385
+      r119: -3476659833151593844
+      r125: -4996432079541642170
+      r126: 7195699165582152506
+      r127: 4207831283141701049
+      r129: 907168953569736837
+      r136: 6733758270385314536
+      r137: -50500535570571309
+      r138: 3102128605016105640
+      r141: -2830500347205474843
+      r142: 1334970218675496712
+      r143: 6514065857827214018
+      r144: 4935202893716256614
+      r145: -2706187134488933943
+      wu1: 4205850739991390166
+      wu2: -6515608557650657075
+      z2: -1668373509391291198
+      z3: 6748884232899753067
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

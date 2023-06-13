@@ -603,7 +603,7 @@ VFX/yun1
   rotate: false
   xy: 1640, 1780
   size: 307, 219
-  orig: 307, 307
+  orig: 307, 219
   offset: 0, 0
   index: -1
 lizi
